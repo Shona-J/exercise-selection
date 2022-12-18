@@ -1,0 +1,70 @@
+/*Author: Shona Styles for exercise selection website*/
+*{
+    color: #666666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html,body {
+    height: 100%;
+    margin: 0px;
+}
+#bg {
+    background-size: 100%;
+    background-color: #d8e6f3;
+    margin: 0px;
+    overflow: hidden;
+}
+header {
+	background-image: url(header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 22%;
+    overflow: hidden;
+}    
+h1 {
+	padding-bottom: 0.5em;
+	color: white;
+	font-size: 8em;
+	text-align: center;
+}
+p {
+    padding: 20px;
+}
+a:hover {
+    color:blue;
+}
+a:visited {
+    color: purple;
+}
+.wrap-flex {
+    display: flex;
+    align-items: stretch; /* baseline | center | stretch */
+}
+.panel {
+    width: 30%;
+    height: auto;
+    background-color: white;
+    border-width: 3 px;
+    border-style: solid;
+    border-color:  #1e4162;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 5px;
+}
+.search {
+    color: #003399;
+    text-align: center;
+}
+select,input {
+    margin: 5px;
+    padding: 5px;
+}
+input {
+    width: max-content;
+}
